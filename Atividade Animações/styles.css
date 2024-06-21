@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e2afd5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1,h2 {
+  margin-left: 38%;
+  padding: 20px;
+  color: #810568;
+  
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-left: 40%;
+}
+
+.coracao {
+  margin-top: 3%;
+  margin-left: 25%;
+  animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+img{
+    object-fit: cover;
+    margin-left: 2%;
+}
